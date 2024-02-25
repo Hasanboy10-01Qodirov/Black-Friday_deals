@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(235, 119, 138);
+    height: 115vh;
+}
+header{
+    color: #fff;
+    float: left;
+    margin: 400px 50px 0 100px;
+    max-width: 38%;
+}
+p{
+    margin: 45px 0px;
+}
+section.group{
+    float: left;
+    margin-left: 50px;
+    margin-top: 200px;
+    padding: 25px 102px;
+    background-color: rgb(104, 36, 231);
+    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 50%;
+    width: 28%;
+    color: #fff;
+}
+.group p{
+    margin: 0 140px;
+}
+.container{
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 50%;
+    width: 43%;
+}
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    margin: 0px 25px 20px;
+}
+input{
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+button{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 101.2%;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(30, 214, 85);
+}
+.container p{
+    color: #777;
+    margin: 30px 60px;
+    width: 100%;
+}
+.container p a{
+    text-decoration: none;
+    color: rgb(233, 74, 100);
+}
+button:hover{
+    background-color: #75f8a5;
+}
